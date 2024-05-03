@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PurchaseTicket</string>
+
+
+
+
+        <string name="male">Male</string>
+        <string name="female">Female</string>
+        <string name="regularticket">Regular Ticket(500)</string>
+        <string name="childticket">Children Ticket(250)</string>
+        <string name="studentticket">Student Ticket(400)</string>
+        <string name="confirm">Confirm</string>
+
+        <string name="numberOfTickets">Count：</string>
+        <string name="ticketType">Ticket Type：</string>
+        <string name="gender">Gender：</string>
+        <string name="total">Total：</string>
+
+
+
+</resources>

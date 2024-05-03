@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">購票系統</string>
+
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="regularticket">普通票(500元)</string>
+    <string name="childticket">兒童票(250元)</string>
+    <string name="studentticket">學生票(400元)</string>
+    <string name="confirm">確認</string>
+
+    <string name="numberOfTickets">數量：</string>
+    <string name="ticketType">票種：</string>
+    <string name="gender">性別：</string>
+    <string name="total">總計：</string>
+</resources>
