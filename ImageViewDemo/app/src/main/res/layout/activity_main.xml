@@ -47,31 +47,53 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="173dp">
 
         <ImageView
             android:id="@+id/imgOutput1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-             />
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:rotationY="2" />
 
         <ImageView
             android:id="@+id/imgOutput2"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-             />
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/imgOutput3"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-             />
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/imgOutput4"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-             />
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
